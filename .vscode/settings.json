@@ -1,0 +1,17 @@
+{
+    "python.testing.pytestArgs": [
+        "-s",
+        "--verbose",
+        "test",
+    ],
+    "python.testing.unittestEnabled": false,
+    "python.testing.pytestEnabled": true,
+    "terminal.integrated.env.osx": {
+        "PYTHONPATH": "${workspaceFolder}/src",
+    },
+    "terminal.interpreter.path": "${workspaceFolder}/src",
+    "python.pythonPath": "${workspaceFolder}/.venv/bin/python",
+    "python.envFile": "${workspaceFolder}/.env",
+    "workbench.editor.enablePreview": false,
+    "workbench.editor.enablePreviewFromQuickOpen": true
+}
